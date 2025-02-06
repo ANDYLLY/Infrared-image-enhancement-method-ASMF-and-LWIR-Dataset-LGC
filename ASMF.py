@@ -89,7 +89,7 @@ class ASMF(nn.Module):
         asmnet = self.asm_subnet.get_asm()
         asmnet.eval()
         asmnet = asmnet.cuda()
-        os.makedirs(os.path.join(current_file_dir, 'LGC_std'), exist_ok=True)
+        os.makedirs(os.path.join(current_file_dir, self.name), exist_ok=True)
         self.mdf_subnet.load_mdf()
         for data, filename in test_data_loader:
             data = data.cuda()
@@ -98,4 +98,4 @@ class ASMF(nn.Module):
             D = D.cuda()
             O = self.mdf_subnet.infer_mdf(D)
             for j in range(O.size(0)):
-                torchvision.utils.save_image(O[j], os.path.join(current_file_dir, 'LGC_std', filename[j]))
+                torchvision.utils.save_image(O[j], os.path.join(current_file_dir, self.name, filename[j]))
