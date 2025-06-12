@@ -80,7 +80,7 @@ The output images will be saved in the "LGC_std" folder for you to view the resu
 
 ## Enhance Images
 
-## Preparation
+### Preparation
 Follow these steps to use your own dataset:
 
 1. **Split your dataset** into training and testing data.
@@ -94,13 +94,13 @@ Follow these steps to use your own dataset:
 
    Here, `"datasetname"` refers to the name of your dataset.
 
-## Train
+### Train
 If you choose "your_experiment_name" as the name of your experiment, use the following command to start training:
 ```bash
 python train.py --name="your_experiment_name" --Dataset="datasetname"
 ```
 
-## Test
+### Test
 Once training is completed, use the following command to generate the final enhanced images:
 
 ```bash
