@@ -7,6 +7,8 @@ This repository provides two key products:
 1. **LGC Dataset**
 2. **The Algorithm** proposed in the paper *"ASMF Self-supervised Fusion Network for Infrared Image Enhancement"*
 
+Our paper, titled “ASMF: A Self-Supervised Atmospheric Scattering Model-Based Fusion Network for Infrared Image Enhancement,” is available in the attached file paper.pdf.
+
 # LGC Dataset
 
 ## Description 
