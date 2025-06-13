@@ -9,7 +9,7 @@ This repository provides two key products:
 
 # LGC Dataset
 
-## introduction 
+## Description 
 
 LGC Dataset is captured by IRay Tech's LGC6122 uncooled LWIR infrared core. Its most significant advantage is its 72 mm focal length, which enables long-distance detection. For example, it facilitates the detection of human subjects at distances of up to 1.3 kilometers and vehicles at distances of 1.7 kilometers. For detailed information about the LGC6122 infrared camera, please refer to the "LGC6122非制冷红外机芯组件产品说明书", which is written in Chinese. 
 
